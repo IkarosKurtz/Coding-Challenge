@@ -2,17 +2,18 @@
 ## Proyecto de retos ICI mensuales.
 ![Languages](https://github.com/IkarosKurtz/ICI-Challenge/blob/Master/Imagenes/Challenge.png)
 
-## Objetivo
+## ✨ Objetivo
 
 La idea principal de este repositorio es el crear diferentes programas con distintas soluciones para mejorar nuestro conocimiento con distintas tecnologías y así forzarnos a probar otras nuevas.
 
-## **Reglas**
-Cada tres a cuatro días se publicará un problema y se podrá resolver en cualquier lenguaje que quieras, a la vez que se publica un nuevo problema se publicará una posible solución del problema anterior (Puede que no sea en el lenguaje que hayas elegido).
+## **📙 Reglas**
+* Cada tres a cuatro días se publicará un reto y se podrá resolver en cualquier lenguaje que desee.
+* Se publicará una posible solución cuando se publique el siguiente reto.
+* Se recomienda que el output se igual al que se pide, pero no es obligatorio.
+* El repositorio en el cual resolviste el reto debe tener una explicación de tu programa y una foto de la ejecución.
+* Divertirse.
 
-Cada problema tiene un nivel de dificultad y también los problemas estarán en inglés para mejorar el entendimiento de dicho idioma, el problema lo resolveras
-en tu repositorio con una explicacion de lo que estas haciendo y una foto de la ejecucion del programa.
-
-## **Lista de retos**
+## **🔴 Lista de retos**
 ### Fecha de publicación: 16/06/2022
 
 **PARKWAY WALK**
