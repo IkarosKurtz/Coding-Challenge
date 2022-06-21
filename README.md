@@ -59,7 +59,7 @@ The bishop attacks in all directions diagonally, and there is no limit to the di
 
 Mihai has marked all squares the bishop attacks, but forgot where the bishop was! Help Mihai find the position of the bishop. 
 
-![Reto 2](https://github.com/IkarosKurtz/ICI-Challenge/blob/Master/Imagenes/Reto%202.png)
+![Reto 2](https://github.com/IkarosKurtz/ICI-Challenge/blob/Master/Imagenes/Reto2.png)
 
 **Input:**
 
