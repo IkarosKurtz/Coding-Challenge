@@ -2,6 +2,10 @@
 ## Proyecto de retos ICI mensuales.
 ![Languages](https://github.com/IkarosKurtz/ICI-Challenge/blob/Master/Imagenes/Challenge.png)
 
+## Objetivo
+
+La idea principal de este repositorio es el crear diferentes programas con distintas soluciones para mejorar nuestro conocimiento con distintas tecnologías y así forzarnos a probar otras nuevas.
+
 ## **Reglas**
 Cada tres a cuatro días se publicará un problema y se podrá resolver en cualquier lenguaje que quieras, a la vez que se publica un nuevo problema se publicará una posible solución del problema anterior (Puede que no sea en el lenguaje que hayas elegido).
 
