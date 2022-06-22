@@ -4,7 +4,7 @@
 
 ## ✨ Objetivo
 
-La idea principal de este repositorio es el crear diferentes programas con distintas soluciones para mejorar nuestro conocimiento con distintas tecnologías y así forzarnos a probar otras nuevas.
+La idea principal de este repositorio es el crear diferentes programas con distintas soluciones para mejorar nuestro conocimiento con distintas tecnologías y a su vez forzarnos a probar otras nuevas.
 
 ## **📙 Reglas**
 * Cada tres a cuatro días se publicará un reto y se podrá resolver en cualquier lenguaje que desee.
