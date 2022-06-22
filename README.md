@@ -14,7 +14,7 @@ La idea principal de este repositorio es el crear diferentes programas con disti
 * Divertirse.
 
 ## **🔴 Lista de retos**
-### Fecha de publicación: 16/06/2022
+### ❗ Fecha de publicación: 16/06/2022
 
 **PARKWAY WALK**
 
@@ -43,7 +43,7 @@ The second line of the test case contains n integers a1, a2, …, an (1 ≤ ai �
 For each test case, print one integer — the minimum amount of energy you have to restore (by sitting on benches) to reach the bench n+1 from the bench 1 (and end your walk) in the corresponding test case.
 
 
-### Fecha de publicación: 20/06/22
+### ❗ Fecha de publicación: 20/06/22
 
 **Where's the Bishop?**
 
