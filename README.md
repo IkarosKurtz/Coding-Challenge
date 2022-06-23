@@ -77,3 +77,61 @@ Each test case consists of 8 lines, each containing 8 characters. Each of these 
 For each test case, output two integers r and c(2 ≤ r, c ≤ 7) — the row and column of the bishop.
 
 The input is generated in such a way that there is always exactly one possible location of the bishop that is not on the edge of the board.
+
+### ❗ Fecha de publicación: 23/06/22
+
+**Kana and Dragon Quest game**
+
+Difficulty: easy+(900)
+
+Constrains:
+time limit per test: 1 second
+memory limit per test: 256 megabytes
+
+**Problem:**
+
+Kana was just an ordinary high school girl before a talent scout discovered her. Then, she became an idol. But different from the stereotype, she is also a gameholic.
+One day Kana gets interested in a new adventure game called Dragon Quest. In this game, her quest is to beat a dragon.
+
+The dragon has a hit point of x initially. When its hit point goes to 0 or under 0, it will be defeated. In order to defeat the dragon, Kana can cast the two following types of spells.
+
+
+-Void Absorption-
+
+Assume that the dragon's current hit point is h, after casting this spell its hit point will become [h/2]+10. Here [h/2] denotes h divided by two, rounded down.
+
+-Lightning Strike-
+
+This spell will decrease the dragon's hit point by 10. Assume that the dragon's current hit point is h, after casting this spell its hit point will be lowered to h−10.
+
+Due to some reasons Kana can only cast no more than n Void Absorptions and m Lightning Strikes. She can cast the spells in any order and doesn't have to cast all the spells. Kana isn't good at math, so you are going to help her to find out whether it is possible to defeat the dragon.
+
+**Input:**
+
+The first line contains a single integer t (1 ≤ t ≤ 1000)  — the number of test cases.
+
+The next t lines describe test cases. For each test case the only line contains three integers x, n, m (1 ≤ x ≤ 105, 0 ≤ n, m ≤ 30)  — the dragon's initial hit point, the maximum number of Void Absorptions and Lightning Strikes Kana can cast respectively.
+
+**Output:**
+
+If it is possible to defeat the dragon, print "YES" (without quotes). Otherwise, print "NO" (without quotes).
+
+You can print each letter in any case (upper or lower).
+
+Example:
+
+#Note: One possible casting sequence of the first test case is shown below:
+
+-Void Absorption [100/2]+10=60.
+
+-Lightning Strike 60−10=50.
+
+-Void Absorption [50/2]+10=35.
+
+-Void Absorption [35/2]+10=27.
+
+-Lightning Strike 27−10=17.
+
+-Lightning Strike 17−10=7.
+
+-Lightning Strike 7−10=−3.
