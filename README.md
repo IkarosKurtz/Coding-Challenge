@@ -41,7 +41,25 @@ The second line of the test case contains n integers a1, a2, …, an (1 ≤ ai �
 **Output:**
 
 For each test case, print one integer — the minimum amount of energy you have to restore (by sitting on benches) to reach the bench n+1 from the bench 1 (and end your walk) in the corresponding test case.
+```
+Example:
+Input:
+3
+3 1
+1 2 1
+4 5
+3 3 5 2
+5 16
+1 2 3 4 5
+Output:
+3
+8
+0
+```
+#Note:
+In the first test case of the example, you can walk to the bench 2, spending 1 unit of energy, then restore 2 units of energy on the second bench, walk to the bench 3, spending 2 units of energy, restore 1 unit of energy and go to the bench 4.
 
+In the third test case of the example, you have enough energy to just go to the bench 6 without sitting at all.
 
 ### ❗ Fecha de publicación: 20/06/22
 
@@ -77,6 +95,41 @@ Each test case consists of 8 lines, each containing 8 characters. Each of these 
 For each test case, output two integers r and c(2 ≤ r, c ≤ 7) — the row and column of the bishop.
 
 The input is generated in such a way that there is always exactly one possible location of the bishop that is not on the edge of the board.
+```
+Input:
+3
+
+.....#..
+#...#...
+.#.#....
+..#.....
+.#.#....
+#...#...
+.....#..
+......#.
+
+#.#.....
+.#......
+#.#.....
+...#....
+....#...
+.....#..
+......#.
+.......#
+
+.#.....#
+..#...#.
+...#.#..
+....#...
+...#.#..
+..#...#.
+.#.....#
+#.......
+Output:
+4 3
+2 2
+4 5
+```
 
 ### ❗ Fecha de publicación: 23/06/22
 
@@ -110,7 +163,7 @@ Due to some reasons Kana can only cast no more than n Void Absorptions and m Lig
 
 The first line contains a single integer t (1 ≤ t ≤ 1000)  — the number of test cases.
 
-The next t lines describe test cases. For each test case the only line contains three integers x, n, m (1 ≤ x ≤ 105, 0 ≤ n, m ≤ 30)  — the dragon's initial hit point, the maximum number of Void Absorptions and Lightning Strikes Kana can cast respectively.
+The next t lines describe test cases. For each test case the only line contains three integers x, n, m (1 ≤ x ≤ 10^5, 0 ≤ n, m ≤ 30)  — the dragon's initial hit point, the maximum number of Void Absorptions and Lightning Strikes Kana can cast respectively.
 
 **Output:**
 
@@ -135,3 +188,23 @@ Example:
 -Lightning Strike 17−10=7.
 
 -Lightning Strike 7−10=−3.
+```
+Input:
+7
+100 3 4
+189 3 4
+64 2 3
+63 2 3
+30 27 7
+10 9 1
+69117 21 2
+
+Output:
+YES
+NO
+NO
+YES
+YES
+YES
+YES
+```
