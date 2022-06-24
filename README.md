@@ -1,5 +1,5 @@
-# ICI-Challenge
-## Proyecto de retos ICI mensuales.
+# Coding-Challenge
+## Retos mensuales
 ![Languages](https://github.com/IkarosKurtz/ICI-Challenge/blob/Master/Imagenes/Challenge.png)
 
 ## ✨ Objetivo
@@ -9,8 +9,8 @@ La idea principal de este repositorio es el crear diferentes programas con disti
 ## **📙 Reglas**
 * Cada tres a cuatro días se publicará un reto y se podrá resolver en cualquier lenguaje que desee.
 * Se publicará una posible solución cuando se publique el siguiente reto.
-* Se recomienda que el output se igual al que se pide, pero no es obligatorio.
-* El repositorio en el cual resolviste el reto debe tener una explicación de tu programa y una foto de la ejecución.
+* El output tiene que ser igual al que se muestra en el ejemplo de cada problema
+* El problema tiene que estar en un repositorio creado por ti y este debe tener una explicación de tu programa y una foto de la ejecución.
 * Divertirse.
 
 ## **🔴 Lista de retos**
@@ -18,7 +18,7 @@ La idea principal de este repositorio es el crear diferentes programas con disti
 
 **PARKWAY WALK**
 
-Difficulty: easy(800)
+Difficulty: easy(800) 🟢
 
 **Problem:**
 
@@ -42,7 +42,6 @@ The second line of the test case contains n integers a1, a2, …, an (1 ≤ ai �
 
 For each test case, print one integer — the minimum amount of energy you have to restore (by sitting on benches) to reach the bench n+1 from the bench 1 (and end your walk) in the corresponding test case.
 ```
-Example:
 Input:
 3
 3 1
@@ -61,11 +60,13 @@ In the first test case of the example, you can walk to the bench 2, spending 1 u
 
 In the third test case of the example, you have enough energy to just go to the bench 6 without sitting at all.
 
+[**ENLACE A UNA POSIBLE SOLUCION**](https://github.com/IkarosKurtz/ICI-Challenge/blob/Master/Posibles%20Soluciónes/Parkway%20Walk.py)
+
 ### ❗ Fecha de publicación: 20/06/22
 
 **Where's the Bishop?**
 
-Difficulty: easy(800)
+Difficulty: easy(800) 🟢
 
 Constrains:
 
@@ -130,12 +131,13 @@ Output:
 2 2
 4 5
 ```
+[**ENLACE A UNA POSIBLE SOLUCION**](https://github.com/IkarosKurtz/ICI-Challenge/blob/Master/Posibles%20Soluciónes/Where's%20the%20Bishop.cpp)
 
 ### ❗ Fecha de publicación: 23/06/22
 
 **Kana and Dragon Quest game**
 
-Difficulty: easy+(900)
+Difficulty: easy+(900) 🟢
 
 Constrains:
 time limit per test: 1 second
@@ -149,11 +151,11 @@ One day Kana gets interested in a new adventure game called Dragon Quest. In thi
 The dragon has a hit point of x initially. When its hit point goes to 0 or under 0, it will be defeated. In order to defeat the dragon, Kana can cast the two following types of spells.
 
 
--Void Absorption-
+-Void Absorption ⚫-
 
 Assume that the dragon's current hit point is h, after casting this spell its hit point will become [h/2]+10. Here [h/2] denotes h divided by two, rounded down.
 
--Lightning Strike-
+-Lightning Strike ⚡-
 
 This spell will decrease the dragon's hit point by 10. Assume that the dragon's current hit point is h, after casting this spell its hit point will be lowered to h−10.
 
