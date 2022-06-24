@@ -10,7 +10,7 @@ La idea principal de este repositorio es el crear diferentes programas con disti
 * Cada tres a cuatro días se publicará un reto y se podrá resolver en cualquier lenguaje que desee.
 * Se publicará una posible solución cuando se publique el siguiente reto.
 * El output tiene que ser igual al que se muestra en el ejemplo de cada problema
-* El problema tiene que estar en un repositorio creado por ti y este debe tener una explicación de tu programa y una foto de la ejecución.
+* El problema tiene que estar en un repositorio creado por ti y este debe tener una explicación de tu programa y una foto de la ejecución [EJEMPLO](https://github.com/IkarosKurtz/Kana-and-Dragon-Quest-game).
 * Divertirse.
 
 ## **🔴 Lista de retos**
