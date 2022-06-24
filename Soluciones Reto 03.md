@@ -1,7 +1,7 @@
 # SOLUCIONES DEL RETO 3
 ## Kana and Dragon Quest game
 
-**❗ Publicado el 23/06/22**
+### **❗ Publicado el 23/06/22**
 
 **Problem**
 Kana was just an ordinary high school girl before a talent scout discovered her. Then, she became an idol. But different from the stereotype, she is also a gameholic.
