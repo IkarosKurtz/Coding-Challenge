@@ -211,5 +211,3 @@ YES
 YES
 YES
 ```
-
-[**ENLACE A UNA POSIBLE SOLUCION**](https://github.com/IkarosKurtz/ICI-Challenge/blob/Master/Posibles%20Soluciónes/Kana's%20game.py)
