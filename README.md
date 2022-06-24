@@ -61,6 +61,8 @@ In the first test case of the example, you can walk to the bench 2, spending 1 u
 
 In the third test case of the example, you have enough energy to just go to the bench 6 without sitting at all.
 
+[**ENLACE A UNA POSIBLE SOLUCION**](https://github.com/IkarosKurtz/ICI-Challenge/blob/Master/Posibles%20Soluciónes/Parkway%20Walk.py)
+
 ### ❗ Fecha de publicación: 20/06/22
 
 **Where's the Bishop?**
@@ -130,6 +132,7 @@ Output:
 2 2
 4 5
 ```
+[**ENLACE A UNA POSIBLE SOLUCION**](https://github.com/IkarosKurtz/ICI-Challenge/blob/Master/Posibles%20Soluciónes/Where's%20the%20Bishop.cpp)
 
 ### ❗ Fecha de publicación: 23/06/22
 
@@ -208,3 +211,5 @@ YES
 YES
 YES
 ```
+
+[**ENLACE A UNA POSIBLE SOLUCION**](https://github.com/IkarosKurtz/ICI-Challenge/blob/Master/Posibles%20Soluciónes/Kana's%20game.py)
