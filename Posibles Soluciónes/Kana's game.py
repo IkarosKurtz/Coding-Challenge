@@ -1,5 +1,4 @@
 import math
-
 class Quest():
 
     def __init__(self, _hitpoints, _voidAbSpells, _lightningStrikeSpells):
@@ -8,7 +7,7 @@ class Quest():
         self.lightningStrikeSpells = _lightningStrikeSpells
 
     def UseVoidAbsorptionSpell(self, _hitPoints):
-        hitPoints = (_hitPoints / 2) + 10
+        hitPoints = int(_hitPoints / 2) + 10
         self.voidAbSpells = self.voidAbSpells - 1
         return hitPoints
 
@@ -23,6 +22,9 @@ class Quest():
         else:
             return False
 
+def RestartValues(values, i):
+    quest = Quest(values[i][0], values[i][1], values[i][2])
+    return quest
 
 def Game():
     totalCases = 0
@@ -75,7 +77,7 @@ def Game():
 
             quest.lightningStrikeSpells = backup.lightningStrikeSpells
 
-        quest = backup
+        quest = RestartValues(cases, i)
 
         while quest.lightningStrikeSpells > 0:
             quest.hitPoints = quest.UseLightningStrikeSpell(quest.hitPoints)
@@ -87,7 +89,7 @@ def Game():
 
             quest.voidAbSpells = backup.voidAbSpells
 
-        quest = backup
+        quest = RestartValues(cases, i)
 
         while quest.lightningStrikeSpells > 0:
             quest.hitPoints = quest.UseLightningStrikeSpell(quest.hitPoints)
@@ -95,9 +97,45 @@ def Game():
 
             if quest.IsDead():
                 break
+            
+        while quest.voidAbSpells > 0:
+            quest.hitPoints = quest.UseVoidAbsorptionSpell(quest.hitPoints)    
+            if quest.IsDead():
+                break
+        
+        while quest.lightningStrikeSpells > 0:
+            quest.hitPoints = quest.UseLightningStrikeSpell(quest.hitPoints)
+            if quest.IsDead():
+                break
+        
+        quest = RestartValues(cases, i)
+        
+        while quest.voidAbSpells > 0:
+            quest.hitPoints = quest.UseVoidAbsorptionSpell(quest.hitPoints)
+            quest.hitPoints = quest.UseLightningStrikeSpell(quest.hitPoints)
+            if quest.IsDead():
+                break
+        
+        while quest.lightningStrikeSpells > 0:
+            quest.hitPoints = quest.UseLightningStrikeSpell(quest.hitPoints)
+            if quest.IsDead():
+                break
+            
+        while quest.voidAbSpells > 0:
+            quest.hitPoints = quest.UseVoidAbsorptionSpell(quest.hitPoints)    
+            if quest.IsDead():
+                break
 
-            quest.voidAbSpells = backup.voidAbSpells
-
+        quest = RestartValues(cases, i)
+        
+        while quest.voidAbSpells > 0 and quest.hitPoints > 10:
+            quest.hitPoints = quest.UseVoidAbsorptionSpell(quest.hitPoints)
+            
+        while quest.lightningStrikeSpells > 0:
+            quest.hitPoints = quest.UseLightningStrikeSpell(quest.hitPoints)
+            if quest.IsDead():
+                break
+            
         if quest.IsDead():
             print("YES")
         else:
