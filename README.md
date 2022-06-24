@@ -1,4 +1,4 @@
-# ICI-Challenge
+# Coding-Challenge
 ## Proyecto de retos ICI mensuales.
 ![Languages](https://github.com/IkarosKurtz/ICI-Challenge/blob/Master/Imagenes/Challenge.png)
 
