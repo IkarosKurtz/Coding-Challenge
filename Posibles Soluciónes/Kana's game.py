@@ -22,10 +22,6 @@ class Quest():
         else:
             return False
 
-def RestartValues(values, i):
-    quest = Quest(values[i][0], values[i][1], values[i][2])
-    return quest
-
 def Game():
     totalCases = 0
     while totalCases < 1 or totalCases >= 1000:
@@ -65,68 +61,6 @@ def Game():
 
     for i in range(totalCases):
         quest = Quest(cases[i][0], cases[i][1], cases[i][2])
-        backup = Quest(cases[i][0], cases[i][1], cases[i][2])
-
-        while quest.voidAbSpells > 0:
-            quest.hitPoints = quest.UseVoidAbsorptionSpell(quest.hitPoints)
-
-            while quest.lightningStrikeSpells > 0:
-                quest.hitPoints = quest.UseLightningStrikeSpell(quest.hitPoints)
-                if quest.IsDead():
-                    break
-
-            quest.lightningStrikeSpells = backup.lightningStrikeSpells
-
-        quest = RestartValues(cases, i)
-
-        while quest.lightningStrikeSpells > 0:
-            quest.hitPoints = quest.UseLightningStrikeSpell(quest.hitPoints)
-
-            while quest.voidAbSpells > 0:
-                quest.hitPoints = quest.UseVoidAbsorptionSpell(quest.hitPoints)
-                if quest.IsDead():
-                    break
-
-            quest.voidAbSpells = backup.voidAbSpells
-
-        quest = RestartValues(cases, i)
-
-        while quest.lightningStrikeSpells > 0:
-            quest.hitPoints = quest.UseLightningStrikeSpell(quest.hitPoints)
-            quest.hitPoints = quest.UseVoidAbsorptionSpell(quest.hitPoints)
-
-            if quest.IsDead():
-                break
-            
-        while quest.voidAbSpells > 0:
-            quest.hitPoints = quest.UseVoidAbsorptionSpell(quest.hitPoints)    
-            if quest.IsDead():
-                break
-        
-        while quest.lightningStrikeSpells > 0:
-            quest.hitPoints = quest.UseLightningStrikeSpell(quest.hitPoints)
-            if quest.IsDead():
-                break
-        
-        quest = RestartValues(cases, i)
-        
-        while quest.voidAbSpells > 0:
-            quest.hitPoints = quest.UseVoidAbsorptionSpell(quest.hitPoints)
-            quest.hitPoints = quest.UseLightningStrikeSpell(quest.hitPoints)
-            if quest.IsDead():
-                break
-        
-        while quest.lightningStrikeSpells > 0:
-            quest.hitPoints = quest.UseLightningStrikeSpell(quest.hitPoints)
-            if quest.IsDead():
-                break
-            
-        while quest.voidAbSpells > 0:
-            quest.hitPoints = quest.UseVoidAbsorptionSpell(quest.hitPoints)    
-            if quest.IsDead():
-                break
-
-        quest = RestartValues(cases, i)
         
         while quest.voidAbSpells > 0 and quest.hitPoints > 10:
             quest.hitPoints = quest.UseVoidAbsorptionSpell(quest.hitPoints)
