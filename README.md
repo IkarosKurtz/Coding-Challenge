@@ -9,7 +9,7 @@ La idea principal de este repositorio es el crear diferentes programas con disti
 ## **📙 Reglas**
 * Cada tres a cuatro días se publicará un reto y se podrá resolver en cualquier lenguaje que desee.
 * Se publicará una posible solución cuando se publique el siguiente reto.
-* Se recomienda que el output se igual al que se pide, pero no es obligatorio.
+* El output tiene que ser igual al que se muestra en el ejemplo de cada problema
 * El repositorio en el cual resolviste el reto debe tener una explicación de tu programa y una foto de la ejecución.
 * Divertirse.
 
