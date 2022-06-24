@@ -18,7 +18,7 @@ La idea principal de este repositorio es el crear diferentes programas con disti
 
 **PARKWAY WALK**
 
-Difficulty: easy(800)
+Difficulty: easy(800) 🟢
 
 **Problem:**
 
@@ -42,7 +42,6 @@ The second line of the test case contains n integers a1, a2, …, an (1 ≤ ai �
 
 For each test case, print one integer — the minimum amount of energy you have to restore (by sitting on benches) to reach the bench n+1 from the bench 1 (and end your walk) in the corresponding test case.
 ```
-Example:
 Input:
 3
 3 1
@@ -67,7 +66,7 @@ In the third test case of the example, you have enough energy to just go to the 
 
 **Where's the Bishop?**
 
-Difficulty: easy(800)
+Difficulty: easy(800) 🟢
 
 Constrains:
 
@@ -138,7 +137,7 @@ Output:
 
 **Kana and Dragon Quest game**
 
-Difficulty: easy+(900)
+Difficulty: easy+(900) 🟢
 
 Constrains:
 time limit per test: 1 second
@@ -152,11 +151,11 @@ One day Kana gets interested in a new adventure game called Dragon Quest. In thi
 The dragon has a hit point of x initially. When its hit point goes to 0 or under 0, it will be defeated. In order to defeat the dragon, Kana can cast the two following types of spells.
 
 
--Void Absorption-
+-Void Absorption ⚫-
 
 Assume that the dragon's current hit point is h, after casting this spell its hit point will become [h/2]+10. Here [h/2] denotes h divided by two, rounded down.
 
--Lightning Strike-
+-Lightning Strike ⚡-
 
 This spell will decrease the dragon's hit point by 10. Assume that the dragon's current hit point is h, after casting this spell its hit point will be lowered to h−10.
 
