@@ -1,5 +1,5 @@
 # Coding-Challenge
-## Proyecto de retos ICI mensuales.
+## Retos mensuales.
 ![Languages](https://github.com/IkarosKurtz/ICI-Challenge/blob/Master/Imagenes/Challenge.png)
 
 ## ✨ Objetivo
