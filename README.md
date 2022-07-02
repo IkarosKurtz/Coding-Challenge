@@ -215,6 +215,7 @@ YES
 ### ❗ Fecha de publicación: 27/06/22
 
 **PizzaForces**
+
 Difficulty: easy+(900)
 
 Time limit per test: 2 seconds
@@ -262,9 +263,10 @@ output
 25000000000000000 
 15 
 ```
-a
+
 
 ### ❗ Fecha de publicación: 30/06/22
+
 **The Doors**
 
 Difficulty: easy(800)
