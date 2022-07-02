@@ -211,3 +211,110 @@ YES
 YES
 ```
 [**ENLACE A UNA POSIBLE SOLUCION**](https://github.com/IkarosKurtz/Kana-and-Dragon-Quest-game)
+
+### ❗ Fecha de publicación: 27/06/22
+
+**PizzaForces**
+Difficulty: easy+(900)
+
+Time limit per test: 2 seconds
+
+memory limit per test: 256 megabytes
+
+
+PizzaForces is Petya's favorite pizzeria. PizzaForces makes and sells pizzas of three sizes: small pizzas consist of 6 slices, medium ones consist of 8 slices, and large pizzas consist of 10 slices each. Baking them takes 15, 20 and 25minutes, respectively.
+
+Petya's birthday is today, and nn of his friends will come, so he decided to make an order from his favorite pizzeria. Petya wants to order so much pizza that each of his friends gets at least one slice of pizza. The cooking time of the order is the total baking time of all the pizzas in the order.
+
+Your task is to determine the minimum number of minutes that is needed to make pizzas containing at least nn slices in total. For example:
+
+if 12 friends come to Petya's birthday, he has to order pizzas containing at least 12  slices in total. He can order two small pizzas, containing exactly 12.  slices, and the time to bake them is 30 minutes;
+
+if 15 friends come to Petya's birthday, he has to order pizzas containing at least 15 slices in total. He can order a small pizza and a large pizza, containing 16 slices, and the time to bake them is 40 minutes;
+
+if 300 friends come to Petya's birthday, he has to order pizzas containing at least  300  slices in total. He can order 15 small pizzas, 10 medium pizzas and 13 large pizzas, in total they contain 15⋅6+10⋅8+13⋅10=300 slices, and the total time to bake them is 15⋅15+10⋅20+13⋅25=750  minutes;
+
+if only one friend comes to Petya's birthday, he can order a small pizza, and the time to bake it is 15 minutes. 
+
+**Input**
+
+The first line contains a single integer tt (1≤t≤1041≤t≤104) — the number of testcases.
+
+Each testcase consists of a single line that contains a single integer nn (1≤n≤10161≤n≤1016) — the number of Petya's friends.
+
+**Output**
+For each testcase, print one integer — the minimum number of minutes that is needed to bake pizzas containing at least n slices in total.
+
+```
+input
+6 
+12
+15
+300
+1
+9
+9999999999999993 
+output
+30 
+40 
+750 
+15 
+25000000000000000 
+15 
+```
+a
+
+### ❗ Fecha de publicación: 30/06/22
+**The Doors**
+
+Difficulty: easy(800)
+
+**Constrains**
+
+Time limit per test: 1 seconds
+memory limit per test: 256 megabytes
+
+**Problem**
+
+Three years have passes and nothing changed. It is still raining in London, and Mr. Black has to close all the doors in his home in order to not be flooded. Once, however, Mr. Black became so nervous that he opened one door, then another, then one more and so on until he opened all the doors in his house.
+
+There are exactly two exits from Mr. Black's house, let's name them left and right exits. There are several doors in each of the exits, so each door in Mr. Black's house is located either in the left or in the right exit. You know where each door is located. Initially all the doors are closed. Mr. Black can exit the house if and only if all doors in at least one of the exits is open. You are given a sequence in which Mr. Black opened the doors, please find the smallest index k such that Mr. Black can exit the house after opening the first k doors.
+
+We have to note that Mr. Black opened each door at most once, and in the end all doors became open.
+
+**Input**
+
+The first line contains integer n (2 ≤ n ≤ 200000) — the number of doors.
+
+The next line contains n integers: the sequence in which Mr. Black opened the doors. The i-th of these integers is equal to 0 in case the i-th opened door is located in the left exit, and it is equal to 1 in case it is in the right exit.
+
+It is guaranteed that there is at least one door located in the left exit and there is at least one door located in the right exit.
+
+**Output**
+
+Print the smallest integer k such that after Mr. Black opened the first k doors, he was able to exit the house. 
+
+Example
+
+#Note
+In the first example the first two doors are from the left exit, so when Mr. Black opened both of them only, there were two more closed door in the left exit and one closed door in the right exit. So Mr. Black wasn't able to exit at that moment.
+
+When he opened the third door, all doors from the right exit became open, so Mr. Black was able to exit the house.
+
+In the second example when the first two doors were opened, there was open closed door in each of the exit.
+
+With three doors opened Mr. Black was able to use the left exit. 
+
+```
+Input
+5
+0 0 1 0 0
+Output
+3
+----------------------
+Input
+4
+1 0 0 1
+Output
+3
+```
