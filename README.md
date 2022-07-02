@@ -210,3 +210,4 @@ YES
 YES
 YES
 ```
+[**ENLACE A UNA POSIBLE SOLUCION**](https://github.com/IkarosKurtz/Kana-and-Dragon-Quest-game)
